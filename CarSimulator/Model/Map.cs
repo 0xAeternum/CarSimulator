@@ -5,6 +5,8 @@
 /// </summary>
 public class Map
 {
+	private List<Tile> tiles;
+
 	public Map()
 	{
 		//

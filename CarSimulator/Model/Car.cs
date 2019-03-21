@@ -3,12 +3,20 @@
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-public class Car
+public class Car : AGameObject
 {
+	private List<Sensor> sensors;
+
 	public Car()
 	{
-		//
-		// TODO: Add constructor logic here
-		//
+		super();
+	}
+
+	public Car(Integer threads) {
+		super();
+	}
+
+	public void Drive() {
+
 	}
 }

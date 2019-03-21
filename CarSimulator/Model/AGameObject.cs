@@ -3,10 +3,12 @@
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-public class Sensor
+abstract class AGameObject
 {
-	public Sensor()
+	public AGameObject()
 	{
 		
 	}
+
+	
 }
